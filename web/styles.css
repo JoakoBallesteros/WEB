@@ -1,0 +1,471 @@
+header {
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+    font-family: "League Spartan", sans-serif;
+    font-size: 50px;
+}
+
+.form-contacto{
+
+    font-size: 15px;
+}
+
+.imgheader{
+
+    width: 45%;
+}
+.imgprincipal{
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.imgservicio{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 300px;
+    
+}
+.presentacion {
+    text-align: center;
+    margin: 50px 20px;
+    
+}
+
+
+.presentacion p {
+    font-size: 25px;
+    
+    margin-bottom: 15px;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+.instagram {
+    background: rgb(255,49,49);
+    background: radial-gradient(circle, rgba(255,49,49,1) 0%, rgba(255,145,77,1) 100%);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.titulo p{
+    color: white;
+    font-family: "League Spartan", sans-serif;
+    font-size: 150px;
+    margin-bottom: 20px;
+
+}
+
+.instagram p {
+    color: white;
+    font-family: "League Spartan", sans-serif;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.instagram li{
+    color: white;
+    font-family: "League Spartan", sans-serif;
+    font-size: 25px;
+    margin-bottom: 20px;
+    display: inline;
+
+
+
+}
+
+button {
+  
+    
+    
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    
+    margin-top: auto; 
+    
+}
+
+
+button a {
+        
+    text-decoration: none;
+    display: block;
+}
+
+
+.spotify{
+
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(45,80,50,1) 100%);
+    
+}
+.spotify p {
+    color: white;
+    font-family: "League Spartan", sans-serif;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.tiktok{
+
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgb(140,82,255);
+    background: radial-gradient(circle, rgba(140,82,255,1) 0%, rgba(255,87,87,1) 100%);
+}
+
+.tiktok p {
+    color: white;
+    font-family: "League Spartan", sans-serif;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.reviews {
+    background-color: #f9f7e8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+    max-width: 800px;
+    margin: 0 auto;
+    
+}
+
+.reviews h1 {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px; 
+}
+
+.review {
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    padding: 20px; 
+    margin-bottom: 15px; /
+    
+}
+
+.review h2 {
+    font-family: "Open Sans", sans-serif; 
+    font-size: 24px; 
+    margin-bottom: 10px; 
+    color: #333; 
+}
+
+.review p {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.review:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); 
+}
+
+
+.faq {
+    background-color: #f9f7e8; /* Un fondo suave para que resalte */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 40px 20px; 
+    margin: 20px; 
+    border-radius: 8px; 
+    text-align: center; 
+    margin-bottom: 10px;
+    border-bottom: 10px black;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); 
+
+}
+
+
+
+.faq h1 {
+    font-family: "League Spartan", sans-serif;
+    font-size: 36px; 
+    margin-bottom: 20px; 
+}
+
+.faq-item {
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    padding: 20px; 
+    margin-bottom: 15px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    text-align: left; 
+}
+
+.faq-item h2 {
+    font-family: "Open Sans", sans-serif; 
+    font-size: 24px; 
+    margin-bottom: 10px;
+    color: #333; 
+}
+
+.faq-item p {
+    font-family: "Open Sans", sans-serif; 
+    font-size: 18px; 
+    color: #555; 
+}
+.faq-item:hover {
+    
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); 
+}
+
+.contacto button:hover{
+
+    background-color: rgb(23, 10, 54)
+ }
+
+
+.contacto{
+
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif; 
+    background-color: black;
+    color: #e7efe1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+
+.contacto textarea{
+    font-family: "Open Sans", sans-serif; 
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    
+}
+
+
+.contacto input[type="submit"] {
+    background-color: #1a73e8; 
+    color: white;
+    padding: 15px; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer;
+    width: 15%; 
+    margin-top: 10px; 
+    font-size: 18px; 
+}
+
+
+.compra-plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    padding: 20px;
+    color: white;
+    font-family: "League Spartan", sans-serif;
+
+}
+
+.plan {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 100%; 
+    padding: 20px;
+   
+    text-align: center;
+   
+}
+
+.plank h2 {
+    font-family: "League Spartan", sans-serif;
+    font-size: 50px;
+    color: white;
+
+}
+
+.plan ul {
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+.plan li {
+    margin-bottom: 20px;
+}
+
+.plan h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.plan p {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+    margin-top: 10px;
+}
+
+.carrito {
+    display: block;
+    background-color: #ff4949;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 18px;
+    margin: 20px auto;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contacto-form {
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    background-color: rgb(55, 30, 60);
+    color: rgb(255, 255, 255);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    max-width: 500px; 
+}
+
+.contacto-form label {
+    margin-bottom: 5px; 
+}
+
+.contacto-form input,
+.contacto-form select,
+.contacto-form textarea {
+    width: 100%; 
+    padding: 10px;
+    margin-bottom: 20px; 
+    border: 1px solid #0b0209;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+
+.contacto-form textarea {
+    height: 150px; 
+    font-family:"Open Sans", sans-serif; 
+}
+
+.contacto-form input[type="submit"] {
+    background-color: #1a73e8;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 150px; 
+    font-size: 18px;
+    margin: 20px auto; 
+    display: block; 
+}
+
+
+.contacto-form input[type="submit"]:hover {
+    background-color: rgb(23, 10, 54); 
+}
+
+.contacto-footer {
+    background-color: #2c2c2c;
+    color: white;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: "Open Sans", sans-serif;
+}
+
+.contacto-footer .footer-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contacto-footer .footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.contacto-footer .footer-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.contacto-footer .footer-links ul li a:hover {
+    color: #1a73e8;
+}
+
+.contacto-footer .footer-social {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.contacto-footer .footer-social a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 15px;
+    transition: color 0.3s ease;
+}
+
+.contacto-footer .footer-social a:hover {
+    color: #1a73e8;
+}
+
+.contacto-footer .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
