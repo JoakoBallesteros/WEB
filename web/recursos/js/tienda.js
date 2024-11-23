@@ -31,66 +31,9 @@ export const tienda = {
                 imagen: "./recursos/planes/instagram3.png",
                 precio: 175,
             },
-            {
+            
 
 
-                id: 4,
-                nombre: "Mocha",
-                imagen: "./recursos/productos/mocha.svg",
-                precio: 4000,
-            },
-            {
-
-
-                id: 5,
-                nombre: "Americano",
-                imagen: "./recursos/productos/americano.svg",
-                precio: 2800,
-            },
-            {
-
-
-                id: 6,
-                nombre: "Macchiato",
-                imagen: "./recursos/productos/macciato.svg",
-                precio: 3300,
-
-                
-
-            },
-            {
-
-
-                id: 7,
-                nombre: "Macchiato",
-                imagen: "./recursos/productos/macciato.svg",
-                precio: 3300,
-
-                
-
-            },
-            {
-
-
-                id: 8,
-                nombre: "Macchiato",
-                imagen: "./recursos/productos/macciato.svg",
-                precio: 3300,
-
-                
-
-            },
-            {
-
-
-                id: 9,
-                nombre: "Macchiato",
-                imagen: "./recursos/productos/macciato.svg",
-                precio: 3300,
-
-                
-
-            },
-
+             
     ],
 };

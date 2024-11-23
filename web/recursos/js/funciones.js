@@ -1,34 +1,27 @@
 export function renderizadoProductos(planes, contenedor) {
-    // Escribir la lógica
+  // Inicializar la variable acumuladora
+  let planHTML = "";
 
-    let planHTML = "";
+  // Recorrer cada plan y generar su HTML
+  planes.forEach((plan) => {
+      planHTML += `
+      <article class="instagram">
+          <div>
+              <ul>
+                  <li>
+                      <h3>${plan.nombre}</h3>
+                      <p>${plan.descripcion}</p>
+                      <img src="${plan.imagen}" alt="${plan.nombre}" />
+                      <data value="${plan.precio}" type="number">
+                          Precio: $${plan.precio}
+                      </data>
+                  </li>
+              </ul>
+          </div>
+      </article>
+      `;
+  });
 
-    planes.forEach((plan) => {
-
-        productoHTML += `
-        <article
-         class="plan__instagram">
-            <div>
-                  <ul>
-                    <li>
-                             <h3>${planes.nombre}</h3>
-                             <p> ${planes.descripcion}</p>
-                            <img
-                            src="${planes.imagen}"
-                            alt="${planes.nombre  }"
-                            />
-                            
-                            <data  value="precio" type="number">
-                            precio $${planes.precio}</data>
-                    </li>
-                </ul>
-            </div>
-            
-            
-            </article>
-
-        `;
-        
-          }
-        )
-        contenedor.innerHTML += planHTML;};
+ 
+  contenedor.innerHTML = planHTML;
+}
