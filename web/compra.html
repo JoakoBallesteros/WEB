@@ -10,12 +10,26 @@
 </head>
 <body>
     <header>
-        <a href="index.html"> <img src="recursos/img/sparks..png" alt="" class="imgheader"></a>
+        <a href="index.html">
+          <img src="recursos/img/sparks..png" alt="" class="imgheader">
+        </a>
         <nav>
-            <a href="compra.html">Compra</a>
-            <a href="contacto.html">Contactanos</a>
+          <a href="compra.html">Compra</a>
+          <a href="contacto.html">Contactanos</a>
+          <a href="#" id="verCarrito">Carrito</a> <!-- Enlace al carrito -->
         </nav>
-    </header>
+      </header>
+      
+      <!-- Popup lateral para el carrito -->
+      <section id="carritoPopup" class="carrito-popup">
+        <div class="carrito-header">
+          <h2>Tu Carrito</h2>
+          <button id="cerrarCarrito">Cerrar</button>
+        </div>
+        <ul id="carritoLista"></ul>
+        <button id="vaciarCarrito">Vaciar Carrito</button>
+      </section>
+      
 
     <div class="imgprincipal">
         <img src="recursos/img/sparksprincipal.png" alt="Logo Sparrk" >

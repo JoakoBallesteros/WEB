@@ -54,28 +54,30 @@ header a {
 .instagram {
     background: rgb(255,49,49);
     background: radial-gradient(circle, rgba(255,49,49,1) 0%, rgba(255,145,77,1) 100%);
-    height: auto; /* Ajustar según el contenido */
+    height: auto; 
     display: flex;
-    flex-direction: row; /* Cambiar a fila */
-    justify-content: space-around; /* Espaciado entre los elementos */
-    align-items: center; /* Alinear verticalmente */
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center; 
     text-align: center;
     color: white;
-    padding: 20px; /* Espaciado interno */
-    gap: 20px; /* Separación entre elementos */
+    padding: 20px; 
+    gap: 20px;
 }
 
 .instagram article
 
     {
-        flex: 1 1 300px; /* Ajusta el tamaño mínimo de los productos */
-       
-        text-align: center; /* Centra el contenido */
-        padding: 2px;
-        background-color: #fff; /* Fondo blanco */
-        border-radius: 8px; /* Bordes redondeados */
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 100px;
+        background-color: #fff; 
+        border-radius: 8px; 
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
     }
+
+
 
 
 .titulo p{
@@ -103,7 +105,7 @@ header a {
 
 }
 .instagram img {
-    max-width: 150px; /* Ajusta el tamaño de las imágenes */
+    max-width: 150px; 
     height: auto;
 }
 
@@ -139,6 +141,9 @@ button a {
     background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(45,80,50,1) 100%);
     
 }
+
+
+
 .spotify p {
     color: white;
     font-family: "League Spartan", sans-serif;
@@ -331,7 +336,7 @@ button a {
    
 }
 
-.plank h2 {
+.plan h2 {
     font-family: "League Spartan", sans-serif;
     font-size: 50px;
     color: white;
@@ -487,3 +492,61 @@ input[type="radio"] {
     justify-content: space-between;
     width: 100%;
 }
+
+
+/* Estilos del popup del carrito */
+/* Estilos del popup del carrito */
+/* Estilos del popup del carrito */
+.carrito-popup {
+    position: fixed;
+    top: 0;
+    right: -100%; /* Hacer que el carrito esté completamente fuera de la vista (a la derecha) */
+    width: 300px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.3);
+    transition: right 0.3s ease; /* Transición suave */
+    padding: 20px;
+    z-index: 1000;
+    display: none; /* Inicialmente oculto */
+  }
+  
+  .carrito-popup.mostrar {
+    right: 0; /* Cuando se muestra, el carrito aparece desde la derecha */
+    display: block; /* Mostrar el carrito */
+  }
+  
+  .carrito-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .carrito-popup h2 {
+    margin: 0;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #carritoLista {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 20px;
+  }
+  
+  #carritoLista li {
+    margin-bottom: 10px;
+  }
+  
+  
